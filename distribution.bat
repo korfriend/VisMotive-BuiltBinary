@@ -1,0 +1,35 @@
+copy ..\X64_Release\vismtv_inbuilt_rwfiles.dll .\X64_Release
+copy ..\X64_Release\vismtv_inbuilt_tfmapgenerator.dll .\X64_Release
+copy ..\X64_Release\vismtv_inbuilt_ptypeprocessing.dll .\X64_Release
+copy ..\X64_Release\vismtv_inbuilt_vtypeprocessing.dll .\X64_Release
+copy ..\X64_Release\vismtv_inbuilt_renderercpu.dll .\X64_Release
+copy ..\X64_Release\vismtv_inbuilt_renderergpudx.dll .\X64_Release
+copy ..\X64_Release\vismtv_modeling_vera.dll .\X64_Release
+copy ..\X64_Release\vismtv_morphfilters.dll .\X64_Release
+copy ..\X64_Release\vismtv_meshextraction.dll .\X64_Release
+copy ..\X64_Release\vismtv_geometryanalyzer.dll .\X64_Release
+copy ..\X64_Release\FreeImage.dll .\X64_Release
+copy ..\X64_Release\CommonUnits.dll .\X64_Release
+copy ..\X64_Release\CommonApi.dll .\X64_Release
+copy ..\X64_Release\GpuManager.dll .\X64_Release
+copy ..\X64_Release\vismtv_dxutwrapper.dll .\X64_Release
+
+copy ..\X64_Debug\vismtv_inbuilt_rwfiles.dll .\X64_Debug
+copy ..\X64_Debug\vismtv_inbuilt_tfmapgenerator.dll .\X64_Debug
+copy ..\X64_Debug\vismtv_inbuilt_ptypeprocessing.dll .\X64_Debug
+copy ..\X64_Debug\vismtv_inbuilt_vtypeprocessing.dll .\X64_Debug
+copy ..\X64_Debug\vismtv_inbuilt_renderercpu.dll .\X64_Debug
+copy ..\X64_Debug\vismtv_inbuilt_renderergpudx.dll .\X64_Debug
+copy ..\X64_Debug\vismtv_modeling_vera.dll .\X64_Debug
+copy ..\X64_Debug\vismtv_morphfilters.dll .\X64_Debug
+copy ..\X64_Debug\vismtv_meshextraction.dll .\X64_Debug
+copy ..\X64_Debug\vismtv_geometryanalyzer.dll .\X64_Debug
+copy ..\X64_Debug\FreeImage.dll .\X64_Debug
+copy ..\X64_Debug\CommonUnits.dll .\X64_Debug
+copy ..\X64_Debug\CommonApi.dll .\X64_Debug
+copy ..\X64_Debug\GpuManager.dll .\X64_Debug
+copy ..\X64_Debug\vismtv_dxutwrapper.dll .\X64_Debug
+
+copy ..\..\EngineCores\CommonApi\VisMtvApi.h .
+copy ..\X64_Release\CommonApi.lib .\CommonApi.lib
+copy ..\X64_Debug\CommonApi.lib .\CommonApid.lib
